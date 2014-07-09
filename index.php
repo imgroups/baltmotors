@@ -223,13 +223,14 @@
 				<div class="col-xs-1 col-md-1">Клиентский отдел</br><b>8 800 700 19 16</b></br><b>+7 (4012) 307008</b></div>
 				<div class="col-xs-1 col-md-1">Главный офис компании</br><b>+7 (4012) 307007</b></br></div>
 				<div class="col-xs-1 col-md-1">Матосалон в Калининграде </br> <b>+7 (4012) 988138</b></div>
-				<div class="col-xs-1 col-md-1 dielog"><a href="#">ПОДПИСАТЬСЯ НА НОВОСТИ</a></div>
+				<div class="col-xs-1 col-md-1 dielog"><a href="#">ВХОД ДЛЯ ДИЛЕРОВ</a></div>
 			</div>
 		</div>
 <div class="row">	
 			<div class="copy">
 				<div class="col-xs-6 col-md-6">© 2011-2014 "Baltmotors"</div>
-				<div class="col-xs-6 col-md-6" style="text-align:right;" ><img src="images/foot/jetlogo.png"><div  style="float:right;width:auto;text-align:left;padding:0;">Дизай разработан</br>компанией <a href="#">JetStyle</a></div></div>
+				<div class="col-xs-6 col-md-6" style="text-align:right;" ><img src="images/foot/jetlogo.png"><div style="float:right;width:auto;text-align:left;padding:0; line-height: 16px;
+margin-top: 10px;">Дизай разработан</br>компанией <a href="#">JetStyle</a></div></div>
 			</div>
 		</div>			
 		</div>	
