@@ -21,6 +21,26 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <style>
+  .boxy{white-space:nowrap}
+  .boxy div{width:auto;display:inline-block;padding:100px 15px 0 0;}
+  .partt div{padding:100px 25px 50px 10px;margin-left:10px;}
+  .foott div {width:auto;vertical-align:top;}
+  .foott  {padding:60px 0 0 0;}
+  .foott  a {text-color:#fff;}
+  .foott  img {margin:-22px 10px 0 0;}
+  .under div {padding:10px 22px 0 22px;width:auto;}
+  .under img {padding:0 5px 0 0; }
+  .under {margin:0 0 0 100px;color:#fff;}
+  .under b {font-size:15px;}
+  .copy {padding:20px 0 100px 0;color:#fff;} 
+  .copy div {padding:0 100px; 0 150px;}
+  .copy a {color:#fff;}
+  .copy img {margin-top:13px;}
+ 
+
+
+  </style>
   <body>
   <nav class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
 
@@ -118,9 +138,19 @@
                     Theme
                 </h2>                
             </div>
-        </article-->        
+        </article-->  
+		
     </section>
-	<div class="tech_item"><img src="images/tech_item.png"></div>
+		<div class="tech_item">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"><a href="#"><img src="images/tech/1.png"></a></div>
+					<div class="col-md-3"><a href="#"><img src="images/tech/2.png"></a></div>
+					<div class="col-md-3"><a href="#"><img src="images/tech/3.png"></a></div>
+					<div class="col-md-3"><a href="#"><img src="images/tech/4.png"></a></div>
+				</div>
+			</div>
 </div>
 	</div>
 <!-- CONTENT -->
@@ -150,11 +180,22 @@
 			</div>
 			<div class="col-lg-4"><img src="images/blog_cr.jpg" width="100%" class="img-responsive"></div>
 		</div>
-		<div class="row">
-			<div class="col-lg-12"><img src="images/banner.jpg"></div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12"><img src="images/partners.jpg"></div>
+		
+			<div style="overflow:hidden;">
+				<div class="boxy">
+					<div><a href="#"><img src="images/ad/1.jpg"></a></div>
+					<div><a href="#"><img src="images/ad/2.jpg"></a></div>
+					<div><a href="#"><img src="images/ad/3.jpg"></a></div>	
+				</div>
+			</div>
+			
+		<div class="row">	
+			<div class="partt">
+				<div class="col-xs-4"><a href="#"><img src="images/part/1.png"></a></div>
+				<div class="col-xs-2"><a href="#"><img src="images/part/2.png"></a></div>
+				<div class="col-xs-2"><a href="#"><img src="images/part/3.png"></a></div>
+				<div class="col-xs-2"><a href="#"><img src="images/part/4.png"></a></div>
+			</div>
 		</div>
 
 	</div>
@@ -162,12 +203,40 @@
 	
 
 <!-- FOOTER -->	
-<div class="row" style="background-color: #000;">
-	<div class="container">
-		<img src="images/footer.jpg">
+<div class="footer">
+		
+	<div class="row">
+		<div class="container">
+			<div class="foott">
+					<div class="col-xs-2 col-md-2"><img src="images/foot/logo.jpg"></div>
+					<div class="col-xs-1 col-md-1"><a href="#">О НАС</a></div>
+					<div class="col-xs-1 col-md-1"><a href="#">ТЕХНИКА</a></div>
+					<div class="col-xs-1 col-md-1"><a href="#">АКСЕССУАРЫ</a></div>
+					<div class="col-xs-1 col-md-1"><a href="#">КАК КУПИТЬ</a></div>
+					<div class="col-xs-1 col-md-1"><a href="#">СЕРВИС</a></div>
+					<div class="col-xs-1 col-md-1"><a href="#">BM CLUB</a></div>
+					<div class="col-xs-1 col-md-1"><img src="images/foot/bmtm.png"><a href="#">BM TEAM</a></div></br>	
+			</div></br>
+<div class="row">	
+			<div class="under">
+				<div class="col-xs-2 col-md-2"><a href="#"><img src="images/foot/vk.jpg"></a><a href="#"><img src="images/foot/fb.jpg"></a></div>
+				<div class="col-xs-1 col-md-1">Клиентский отдел</br><b>8 800 700 19 16</b></br><b>+7 (4012) 307008</b></div>
+				<div class="col-xs-1 col-md-1">Главный офис компании</br><b>+7 (4012) 307007</b></br></div>
+				<div class="col-xs-1 col-md-1">Матосалон в Калининграде </br> <b>+7 (4012) 988138</b></div>
+				<div class="col-xs-1 col-md-1 dielog"><a href="#">ПОДПИСАТЬСЯ НА НОВОСТИ</a></div>
+			</div>
+		</div>
+<div class="row">	
+			<div class="copy">
+				<div class="col-xs-6 col-md-6">© 2011-2014 "Baltmotors"</div>
+				<div class="col-xs-6 col-md-6" style="text-align:right;" ><img src="images/foot/jetlogo.png"><div  style="float:right;width:auto;text-align:left;padding:0;">Дизай разработан</br>компанией <a href="#">JetStyle</a></div></div>
+			</div>
+		</div>			
+		</div>	
 	</div>
-</div>	
 	
+	
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

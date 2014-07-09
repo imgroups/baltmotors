@@ -58,6 +58,17 @@ span.akciya {
 	color: #fbb920;
 	font-weight: bold;	
 }
+.dielog {
+	display: block;
+	width: 100%;
+	border: 3px solid #fff;
+	text-align: center;
+	
+}	
+.dielog a {
+	color: #fff;
+	font-weight: bold;	
+}
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
 	width: device-width;
@@ -119,6 +130,39 @@ text-decoration: none;
 background-color: #fff;
 border-bottom: 2px solid #ff8401;
 }
+
+/* foot
+-------------------------------------------------- */
+.foott a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 28px;
+	color:#fff;
+	
+}
+ul.foott li img{
+	margin-top: -18px;
+	}
+.foot a{
+	color: #000;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0px;
+	margin: 10px 15px;
+	padding: 0px 0px;
+}
+.foott>div>a:hover, .foot>div>a:focus {
+text-decoration: none;
+background-color: #000;
+color:#fff;
+border-bottom: 2px solid #ff8401;
+}
+
+.footer {min-height:200px;
+		background-color:#000;
+}
+
+
 
 .tech_item {
 	position: relative;
