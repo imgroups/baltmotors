@@ -345,3 +345,54 @@ border-bottom: 2px solid #ff8401;
     z-index: 2; }
     #feature_slider #slide-right:hover {
       opacity: 1; }
+
+.main_border {
+	width: 263px;
+	height: 356px;
+	border: 3px solid rgba(0, 0, 0, 0);
+	cursor: pointer;
+	}
+.main_tech {
+	width: 257px;
+	height: 350px;
+	position: absolute;
+	padding: 0px 25px 0 25px;
+	}
+.main_tech h2 {
+	text-align: left;
+	font-size: 22px;
+	color: #fff;  
+	}
+.main_tech p{
+color: #fff;
+font-size: 17px;
+text-align: left;
+line-height: 20px;
+}
+	
+.main_block {
+	background-color: #ff8401;
+	color: #fff;
+ 	}
+
+.main_border:hover {
+	border: 3px solid #FFF;	
+	}
+.main_white:hover {
+	border: 3px solid #ff8401 !important;	
+	}
+.main_block_bg {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	}
+
+.main_block_img {
+	position: absolute;
+	}
+.main_white div {
+	background-color: #fff;
+}
+.main_white div p, .main_white div h2{
+	color: #000;
+}

@@ -145,10 +145,46 @@
 			
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3"><a href="#"><img src="images/tech/1.png"></a></div>
-					<div class="col-md-3"><a href="#"><img src="images/tech/2.png"></a></div>
-					<div class="col-md-3"><a href="#"><img src="images/tech/3.png"></a></div>
-					<div class="col-md-3"><a href="#"><img src="images/tech/4.png"></a></div>
+					<div class="col-md-3">
+						<div class="main_border">
+							<div class="main_tech main_block">
+								<h2>КВАДРОЦИКЛЫ</h2>
+								<p>Квадроциклы созданы для смелых, решительных и серьезных мужчин, любящих активный отдых</p>
+								<img src="images/main_tech/atv_bg.png" class="main_block_bg">
+								<img src="images/main_tech/atv.png" style="bottom: -25px; left: 0px" class="main_block_img">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+					<div class="main_border main_white">
+							<div class="main_tech main_block" style="background-color: #f3f3f3;">
+								<h2>МОТОЦИКЛЫ</h2>
+								<p>Мотоцикл вещь статусная, говорящая очень многое о его владельце.</p>
+								<img src="images/main_tech/moto_bg.png" class="main_block_bg">
+								<img src="images/main_tech/moto.png" style="bottom: -36px; left: 0px" class="main_block_img">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+					<div class="main_border">
+							<div class="main_tech main_block">
+								<h2>СКУТЕРЫ</h2>
+								<p>Скутер подойдет и для города и для пригородов, где он наверное даже более предпочтителен. </p>
+								<img src="images/main_tech/scoot_bg.png" class="main_block_bg">
+								<img src="images/main_tech/scoot.png" style="bottom: -25px; left: 1px" class="main_block_img">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+					<div class="main_border main_white">
+							<div class="main_tech main_block">
+								<h2>ЛОДКИ</h2>
+								<p>Отличное приобретение для людей, которые не имеют возможности хранить лодки в зимний период.</p>
+								<img src="images/main_tech/boat_bg.png" class="main_block_bg">
+								<img src="images/main_tech/boat.png" style="bottom: -30px; left: -3px" class="main_block_img">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 </div>
@@ -156,7 +192,7 @@
 <!-- CONTENT -->
 <div class="row" style="background: #FFF;">
 	<div class="container">
-		<div class="row">
+		<div class="row" style="margin-top: 40px;">
 		<div class="col-lg-4" style="margin-left: -15px;"><img src="images/news_video.jpg"></div>
 		<div class="col-lg-8">
 			<div class="row"><div class="col-lg-12"><h1>НАШИ НОВОСТИ</h1></div></div>
